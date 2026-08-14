@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://kraeved.ru/sitemap.xml
+
+Host: kraeved.ru

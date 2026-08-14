@@ -1,0 +1,68 @@
+# Kraeved.ru - Apache Configuration
+
+# Включить mod_rewrite
+RewriteEngine On
+
+# Убрать index.html из URL
+DirectoryIndex index.html
+
+# Если запрос к директории — показать index.html
+RewriteCond %{REQUEST_FILENAME} -d
+RewriteCond %{REQUEST_FILENAME}/index.html -f
+RewriteRule ^(.*)$ $1/index.html [L]
+
+# Редирект с index.html на чистый URL
+RewriteCond %{THE_REQUEST} /index\.html [NC]
+RewriteRule ^(.*)index\.html$ /$1 [R=301,L]
+
+# Страница 404
+ErrorDocument 404 /404.html
+
+# Кэширование статики
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html "access plus 1 hour"
+    ExpiresByType text/css "access plus 1 month"
+    ExpiresByType application/javascript "access plus 1 month"
+    ExpiresByType image/jpeg "access plus 1 year"
+    ExpiresByType image/png "access plus 1 year"
+    ExpiresByType image/svg+xml "access plus 1 year"
+    ExpiresByType application/json "access plus 1 day"
+</IfModule>
+
+# Сжатие
+<IfModule mod_deflate.c>
+    AddOutputFilterByType DEFLATE text/html text/css application/javascript application/json image/svg+xml text/xml application/xml
+</IfModule>
+
+# Brotli — если модуль собран, отдаём вместо gzip: ощутимо меньше на тексте
+<IfModule mod_brotli.c>
+    AddOutputFilterByType BROTLI_COMPRESS text/html text/css application/javascript application/json image/svg+xml
+</IfModule>
+
+# Статика версионируется вручную, поэтому её можно кэшировать жёстко
+<IfModule mod_headers.c>
+    <FilesMatch "\.(css|js|svg)$">
+        Header set Cache-Control "public, max-age=2592000"
+    </FilesMatch>
+    <FilesMatch "\.html$">
+        Header set Cache-Control "public, max-age=1800, must-revalidate"
+    </FilesMatch>
+</IfModule>
+
+# Безопасность
+<IfModule mod_headers.c>
+    Header set X-Content-Type-Options "nosniff"
+    Header set X-Frame-Options "SAMEORIGIN"
+</IfModule>
+
+# Запрет листинга директорий
+Options -Indexes
+
+# Кодировка UTF-8
+AddDefaultCharset UTF-8
+
+# Служебные файлы не отдаём
+<FilesMatch "^\.(DS_Store|htaccess)$">
+    Require all denied
+</FilesMatch>

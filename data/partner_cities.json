@@ -1,0 +1,416 @@
+{
+  "Абакан": {
+    "slug": "abakan",
+    "shop": "dari-leto",
+    "shops": [
+      "dari-leto"
+    ]
+  },
+  "Адлер": {
+    "slug": "adler",
+    "shop": "karipiona",
+    "shops": [
+      "karipiona"
+    ]
+  },
+  "Анжеро-Судженск": {
+    "slug": "anzero-sudzensk",
+    "shop": "cvetuli-2",
+    "shops": [
+      "cvetuli-2"
+    ]
+  },
+  "Архангельск": {
+    "slug": "arxangelsk",
+    "shop": "studiia-trava",
+    "shops": [
+      "studiia-trava"
+    ]
+  },
+  "Барнаул": {
+    "slug": "barnaul",
+    "shop": "art-flora",
+    "shops": [
+      "art-flora",
+      "vse-puckom"
+    ]
+  },
+  "Белокуриха": {
+    "slug": "belokurixa",
+    "shop": "kolibri",
+    "shops": [
+      "kolibri"
+    ]
+  },
+  "Бийск": {
+    "slug": "biisk",
+    "shop": "botanika",
+    "shops": [
+      "botanika",
+      "kolibri",
+      "cvety-i-med",
+      "klumba-cvety-i-podarki"
+    ]
+  },
+  "Благовещенск": {
+    "slug": "blagoveshhensk",
+    "shop": "diadema",
+    "shops": [
+      "diadema"
+    ]
+  },
+  "Видное": {
+    "slug": "vidnoe",
+    "shop": "oze-flowers",
+    "shops": [
+      "oze-flowers"
+    ]
+  },
+  "Владивосток": {
+    "slug": "vladivostok",
+    "shop": "more-cvetov",
+    "shops": [
+      "more-cvetov"
+    ]
+  },
+  "Воронеж": {
+    "slug": "voronez",
+    "shop": "floriia",
+    "shops": [
+      "floriia"
+    ]
+  },
+  "Всеволожск": {
+    "slug": "vsevolozsk",
+    "shop": "nivianik",
+    "shops": [
+      "nivianik"
+    ]
+  },
+  "Губкинский": {
+    "slug": "gubkinskii",
+    "shop": "chernika",
+    "shops": [
+      "chernika"
+    ]
+  },
+  "Заволжск": {
+    "slug": "zavolzsk",
+    "shop": "koroleva-roz",
+    "shops": [
+      "koroleva-roz"
+    ]
+  },
+  "Изобильный": {
+    "slug": "izobilnyi",
+    "shop": "kameliia",
+    "shops": [
+      "kameliia"
+    ]
+  },
+  "Иркутск": {
+    "slug": "irkutsk",
+    "shop": "angel-flowers",
+    "shops": [
+      "angel-flowers"
+    ]
+  },
+  "Кемерово": {
+    "slug": "kemerovo",
+    "shop": "rozovye-rozy",
+    "shops": [
+      "rozovye-rozy",
+      "buket-market",
+      "buketiki",
+      "don-buton",
+      "klen",
+      "vanil",
+      "cvetocnaia"
+    ]
+  },
+  "Кинешма": {
+    "slug": "kinesma",
+    "shop": "koroleva-roz",
+    "shops": [
+      "koroleva-roz"
+    ]
+  },
+  "Киселёвск": {
+    "slug": "kiselevsk",
+    "shop": "buketiki-1",
+    "shops": [
+      "buketiki-1"
+    ]
+  },
+  "Краснодар": {
+    "slug": "krasnodar",
+    "shop": "cvety-dlia-liubimyx",
+    "shops": [
+      "cvety-dlia-liubimyx",
+      "rozinki"
+    ]
+  },
+  "Ленинск-Кузнецкий": {
+    "slug": "leninsk-kuzneckii",
+    "shop": "rozovye-rozy",
+    "shops": [
+      "rozovye-rozy"
+    ]
+  },
+  "Липецк": {
+    "slug": "lipeck",
+    "shop": "elflora",
+    "shops": [
+      "elflora"
+    ]
+  },
+  "Магадан": {
+    "slug": "magadan",
+    "shop": "zivye-cvety",
+    "shops": [
+      "zivye-cvety"
+    ]
+  },
+  "Минусинск": {
+    "slug": "minusinsk",
+    "shop": "dari-leto",
+    "shops": [
+      "dari-leto"
+    ]
+  },
+  "Москва": {
+    "slug": "moskva",
+    "shop": "serdce-flory-1",
+    "shops": [
+      "serdce-flory-1"
+    ]
+  },
+  "Мытищи": {
+    "slug": "mytishhi",
+    "shop": "serdce-flory",
+    "shops": [
+      "serdce-flory"
+    ]
+  },
+  "Наволоки": {
+    "slug": "navoloki",
+    "shop": "koroleva-roz",
+    "shops": [
+      "koroleva-roz"
+    ]
+  },
+  "Нижневартовск": {
+    "slug": "niznevartovsk",
+    "shop": "nezabudka",
+    "shops": [
+      "nezabudka"
+    ]
+  },
+  "Новокузнецк": {
+    "slug": "novokuzneck",
+    "shop": "rosinka",
+    "shops": [
+      "rosinka"
+    ]
+  },
+  "Новороссийск": {
+    "slug": "novorossiisk",
+    "shop": "cvetushhii-gorod",
+    "shops": [
+      "cvetushhii-gorod"
+    ]
+  },
+  "Новосибирск": {
+    "slug": "novosibirsk",
+    "shop": "grand-buket",
+    "shops": [
+      "grand-buket",
+      "vale-flowers"
+    ]
+  },
+  "Ноябрьск": {
+    "slug": "noiabrsk",
+    "shop": "buketnaia-lavka",
+    "shops": [
+      "buketnaia-lavka"
+    ]
+  },
+  "Омск": {
+    "slug": "omsk",
+    "shop": "7-idei",
+    "shops": [
+      "7-idei"
+    ]
+  },
+  "Оренбург": {
+    "slug": "orenburg",
+    "shop": "cvety-dlia-tebia",
+    "shops": [
+      "cvety-dlia-tebia"
+    ]
+  },
+  "Петропавловск-Камчатский": {
+    "slug": "petropavlovsk-kamcatskii",
+    "shop": "cvetocnaia-zateia",
+    "shops": [
+      "cvetocnaia-zateia"
+    ]
+  },
+  "Полысаево": {
+    "slug": "polysaevo",
+    "shop": "cvetocnyi-dvorik-1",
+    "shops": [
+      "cvetocnyi-dvorik-1",
+      "rozovye-rozy"
+    ]
+  },
+  "Прокопьевск": {
+    "slug": "prokopevsk",
+    "shop": "buketiki-1",
+    "shops": [
+      "buketiki-1"
+    ]
+  },
+  "Пятигорск": {
+    "slug": "piatigorsk",
+    "shop": "cvety-i-kofe",
+    "shops": [
+      "cvety-i-kofe"
+    ]
+  },
+  "Рубцовск": {
+    "slug": "rubcovsk",
+    "shop": "buketon",
+    "shops": [
+      "buketon"
+    ]
+  },
+  "Рязань": {
+    "slug": "riazan",
+    "shop": "cvetok",
+    "shops": [
+      "cvetok"
+    ]
+  },
+  "Самара": {
+    "slug": "samara",
+    "shop": "cvetocnye-reseniia",
+    "shops": [
+      "cvetocnye-reseniia",
+      "funky-flowers",
+      "sharm-flowery"
+    ]
+  },
+  "Симферополь": {
+    "slug": "simferopol",
+    "shop": "cvetocnaia-lavka",
+    "shops": [
+      "cvetocnaia-lavka"
+    ]
+  },
+  "Сириус": {
+    "slug": "sirius",
+    "shop": "karipiona",
+    "shops": [
+      "karipiona"
+    ]
+  },
+  "Советский": {
+    "slug": "sovetskii",
+    "shop": "kliukva-1",
+    "shops": [
+      "kliukva-1"
+    ]
+  },
+  "Сочи": {
+    "slug": "soci",
+    "shop": "karipiona",
+    "shops": [
+      "karipiona",
+      "pervocvet",
+      "rascvetalli-1"
+    ]
+  },
+  "Старый Оскол": {
+    "slug": "staryi-oskol",
+    "shop": "cvety-oskol",
+    "shops": [
+      "cvety-oskol"
+    ]
+  },
+  "Сургут": {
+    "slug": "surgut",
+    "shop": "cvetok-liubvi",
+    "shops": [
+      "cvetok-liubvi",
+      "surgut-cvety"
+    ]
+  },
+  "Улан-Удэ": {
+    "slug": "ulan-ude",
+    "shop": "cvetuli",
+    "shops": [
+      "cvetuli"
+    ]
+  },
+  "Хабаровск": {
+    "slug": "xabarovsk",
+    "shop": "margaritka",
+    "shops": [
+      "margaritka"
+    ]
+  },
+  "Ханты-Мансийск": {
+    "slug": "xanty-mansiisk",
+    "shop": "cvety-iugry",
+    "shops": [
+      "cvety-iugry"
+    ]
+  },
+  "Чебоксары": {
+    "slug": "ceboksary",
+    "shop": "flora",
+    "shops": [
+      "flora"
+    ]
+  },
+  "Челябинск": {
+    "slug": "celiabinsk",
+    "shop": "cvetocnaia-masterskaia-iz",
+    "shops": [
+      "cvetocnaia-masterskaia-iz"
+    ]
+  },
+  "Югорск": {
+    "slug": "iugorsk",
+    "shop": "kliukva",
+    "shops": [
+      "kliukva"
+    ]
+  },
+  "Юрга": {
+    "slug": "iurga",
+    "shop": "berkana",
+    "shops": [
+      "berkana",
+      "cvetocnyi-dvorik",
+      "cvetuli-1",
+      "cvety-iurga",
+      "pion"
+    ]
+  },
+  "Яблоновский": {
+    "slug": "iablonovskii",
+    "shop": "rozinki",
+    "shops": [
+      "rozinki"
+    ]
+  },
+  "Якутск": {
+    "slug": "iakutsk",
+    "shop": "lavanda",
+    "shops": [
+      "lavanda"
+    ]
+  }
+}

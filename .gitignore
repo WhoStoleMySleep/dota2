@@ -1,0 +1,6 @@
+.DS_Store
+__pycache__/
+*.pyc
+
+# Ставится разово ради tools/make-og.js
+node_modules/
